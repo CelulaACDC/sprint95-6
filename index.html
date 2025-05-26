@@ -165,6 +165,11 @@
             color: var(--text-gray); /* Mantenemos el color de texto normal */
             text-align: center; /* Centrar el texto en las celdas de prioridad */
         }
+		  /* Color para texto "Finalizado" */
+        .status-finalizado {
+            color: #008000; /* Un verde de Bootstrap, puedes ajustarlo */
+            font-weight: 600; /* Opcional: para que se vea un poco más fuerte */
+        }
 
 
         /* Estilos para "Otras Actividades" */
@@ -203,6 +208,7 @@
                     <th>QA</th>
                     <th>Prioridad</th>
                     <th>Fecha Sprint Goal</th>
+					<th>Estado</th>
                 </tr>
                 <tr>
                     <th class="section-header" colspan="6">Iniciativas Carry Over</th>
@@ -213,7 +219,9 @@
                     <td class="sprint-col" rowspan="12">95</td> <td class="sub-category" rowspan="12">CarryOver</td> <td>Stage Alterno</td>
                     <td></td>
                     <td>Wilmer</td>
-                    <td class="priority-0">0</td> <td>28-05-2025</td>
+				    <td class="priority-0">0</td> <td>28-05-2025</td>
+					<td class="status-finalizado">Finalizado</td>
+					
                 </tr>
                 <tr>
                     <td>REPORTE GEOHUB MEDIOS DE PAGO</td>
